@@ -1,6 +1,6 @@
-# Meraki Magic MCP
+# Meraki MCP
 
-Meraki Magic is a Python-based MCP (Model Context Protocol) server for Cisco's Meraki Dashboard. Meraki Magic provides tools for querying the Meraki Dashboard API to discover, monitor, and manage your Meraki environment.
+Meraki MCP is a Python-based MCP (Model Context Protocol) server for Cisco's Meraki Dashboard. Meraki MCP provides tools for querying the Meraki Dashboard API to discover, monitor, and manage your Meraki environment using natural language. This can be used in conjuction with a variety of Cisco solutions including ThousandEyes and Splunk.
 
 ## Features
 
