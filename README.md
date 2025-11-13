@@ -18,8 +18,8 @@ Meraki Magic is a Python-based MCP (Model Context Protocol) server for Cisco's M
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mkutka/meraki-magic.git
-cd meraki-magic-mcp
+git clone https://github.com/JackRiebel/mcp-meraki.git
+cd mcp-meraki
 ```
 
 2. Create a virtual environment and activate it:
