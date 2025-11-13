@@ -2,6 +2,14 @@
 
 Meraki MCP is a Python-based MCP (Model Context Protocol) server for Cisco's Meraki Dashboard. Meraki MCP provides tools for querying the Meraki Dashboard API to discover, monitor, and manage your Meraki environment using natural language. This can be used in conjuction with a variety of Cisco solutions including ThousandEyes and Splunk.
 
+Ex. 
+"Get my last 20 Splunk events" → "Analyze the data" → "Get possible reasons from my
+Meraki network and tell me possible fixes"
+
+This workflow utlizes the Splunk MCP assumuing you have integrated Splunk with your Meraki Organization, it will go through your Splunk events and search for abnormalities such as Auth failures, VLAN errors, WiFi drops, etc. then query your Meraki network to find the root cause of the error and propose changes. You can allow the Agent to make the remediations to your network itself, or ask for instructions to manual configure the changes it recommends.
+
+This is just one use case, if you want to test other use cases, just ask it!
+
 ## Features
 
 - **Comprehensive Network Management**: Full network discovery, monitoring, and management
