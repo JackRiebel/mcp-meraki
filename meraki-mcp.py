@@ -20,7 +20,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 # Create MCP server
-mcp = FastMCP("Meraki Magic MCP")
+mcp = FastMCP("Meraki MCP Server")
 
 # Configuration
 MERAKI_API_KEY = os.getenv("MERAKI_API_KEY")
